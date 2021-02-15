@@ -11,19 +11,19 @@ For certain images or crops, if there are no associations, those images are appe
 
 ## getUniqueCrops:
 
-	Crop images are encoded in hexadecimal format using md5 algorithm to check data integrity.
+Crop images are encoded in hexadecimal format using md5 algorithm to check data integrity.
 	
 ## getCropsAssociation:
 
-	Pass images and crops to matching function
+Pass images and crops to matching function
 	
 ## md5:
 
-	Returns md5 checksum of the image file(s) referred [here](https://www.geeksforgeeks.org/md5-hash-python/)
+Returns md5 checksum of the image file(s) referred [here](https://www.geeksforgeeks.org/md5-hash-python/)
 	
 ## matchCrop:
 
-	Template matching is performed using [cv2.matchTemplate()](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_template_matching/py_template_matching.html) for searching and finding the location of cropped image in the original image. It returns a grayscale image, where each pixel denotes how much does the neighbourhood of that pixel match with template.
+Template matching is performed using [cv2.matchTemplate()](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_template_matching/py_template_matching.html) for searching and finding the location of cropped image in the original image. It returns a grayscale image, where each pixel denotes how much does the neighbourhood of that pixel match with template.
 	
 	
 	
